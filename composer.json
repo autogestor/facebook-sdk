@@ -12,7 +12,8 @@
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "local/my_package": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -38,5 +39,14 @@
         "branch-alias": {
             "dev-master": "5.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+          "packagist.org": false
+        },
+        {
+          "type": "path",
+          "url": "https://github.com/willian-autogestor/facebook-sdk"
+        }
+      ]
 }
