@@ -6,7 +6,7 @@
     "homepage": "https://github.com/willian-autogestor/facebook-sdk",
     "license": "MIT",
     "require": {
-        "local/my_package": "main"
+        "local/my_package": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
